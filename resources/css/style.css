@@ -1,6 +1,7 @@
 /*** Universal Styles ***/
 html {
   font-size: 18px;
+  font-family: Helvetica;
   line-height: 1.4px;
 }
 
@@ -52,3 +53,28 @@ header .container {
   background-color: white;
   margin-top: 10rem;
 }
+
+
+/*** Features Section ***/
+.features {
+  display: flex;
+  justify-content: center;
+}
+.features .container {
+  justify-content: space-around;
+}
+
+
+/*** Vision Section ***/
+.vision {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*** Footer Section ***/
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
