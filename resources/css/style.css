@@ -2,7 +2,10 @@
 html {
   font-size: 18px;
   font-family: Helvetica;
-  line-height: 1.4px;
+}
+
+body {
+  line-height: 1.4;
 }
 
 .container {
@@ -54,9 +57,19 @@ header .container {
   color: white;
 }
 
+.container-plus {
+  width: 1032px;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .slogan {
   background-color: white;
   margin-top: 10rem;
+  padding: 2rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
 }
 
 
@@ -64,9 +77,29 @@ header .container {
 .features {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
 }
 .features .container {
   justify-content: space-around;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 9rem;
+}
+
+.icon img {
+  max-width: 4.5rem;
+  height: auto;
+  display: block;
+}
+
+.icon-text {
+  text-align: center;
 }
 
 
@@ -74,6 +107,32 @@ header .container {
 .vision {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
+}
+
+.vision .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.philo,
+.appo {
+  width: 40%;
+}
+
+.title {
+  background-color: cadetblue;
+  width: 12.5rem;
+  margin-bottom: 1rem;
+}
+
+.title h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
 }
 
 
@@ -81,5 +140,21 @@ header .container {
 .footer {
   display: flex;
   justify-content: center;
+  height: 9.5rem;
+  margin-top: 5rem;
+}
+
+footer .container {
+  background-color: azure;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.content img {
+  height: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
 }
 
