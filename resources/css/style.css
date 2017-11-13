@@ -28,7 +28,7 @@ header {
   height: 31rem;
 }
 
-.menu {
+.top {
   display: flex;
   align-items: center;
   flex-direction: column;
