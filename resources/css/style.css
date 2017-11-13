@@ -1,0 +1,54 @@
+/*** Universal Styles ***/
+html {
+  font-size: 18px;
+  line-height: 1.4px;
+}
+
+.container {
+  width: 960px;
+  display: flex;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*** Header Section ***/
+header {
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 31rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header .container {
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name img {
+  
+}
+
+.logo-name h1 {
+  color: white;
+}
+
+.slogan {
+  background-color: white;
+  margin-top: 10rem;
+}
