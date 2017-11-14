@@ -213,7 +213,7 @@ footer .container {
     }
     
     .logo-name h1 {
-      font-size: 1.5rem
+      font-size: 1.5rem;
     }
     
     .logo-name img {
@@ -239,13 +239,36 @@ footer .container {
       padding: 1.5rem 1.8rem;
       font-size: 1.55rem;
   }
-    
+}
   
   @media only screen and (max-width: 470px) {
+    header {
+      background-position: 21%;
+    }
     
-  }
-
-
-
+    .logo-name img {
+      height: 2rem;
+    }
+    
+    .logo-name h1 {
+      display: none;
+    }
+    
+    .container-plus {
+      width: 100%;
+    }
+    
+    .slogan {
+      margin-top: 15rem;
+      padding: 1rem 1rem;
+      font-size: 1.55rem;
+      margin-right: 0;
+      width: 100%;
+      text-align: center;
+    }
 }
+
+
+
+
   
