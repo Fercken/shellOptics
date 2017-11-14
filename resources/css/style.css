@@ -242,6 +242,8 @@ footer .container {
 }
   
   @media only screen and (max-width: 470px) {
+    
+    /*** Header Section ***/
     header {
       background-position: 21%;
     }
@@ -266,7 +268,63 @@ footer .container {
       width: 100%;
       text-align: center;
     }
+    
+    
+    /*** Features Section ***/
+    .features .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .service {
+      justify-content: space-around;
+      margin-bottom: 3rem;
+    }
+    
+    .vision {
+      margin-top: 0;
+    }
+    
+    .vision .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .philo,
+    .appo,
+    .title {
+      width: 100%
+    }
+    
+    .title {
+      text-align: center;
+    }
+    
+    .philo {
+      margin-bottom: 4rem;
+    }
+    
+    
+    
+    .footer .content h2 {
+      display: none; 
+    }
+    
+    .footer .content img {
+      padding-left: 10rem;
+    }
 }
+    
+    
+    
+    
+    
+    
+
+
+
+
+
 
 
 
