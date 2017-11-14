@@ -16,8 +16,9 @@ body {
 a {
   color: white;
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 0 1rem;
 }
+
 
 /*** Header Section ***/
 header {
@@ -44,7 +45,7 @@ header .container {
 .logo-name {
   display: flex;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1.9rem 0;
 }
 
 .logo-name img {
@@ -55,6 +56,10 @@ header .container {
 
 .logo-name h1 {
   color: white;
+}
+
+nav {
+  padding-right: 1rem;
 }
 
 .container-plus {
@@ -79,6 +84,7 @@ header .container {
   justify-content: center;
   margin-top: 3rem;
 }
+
 .features .container {
   justify-content: space-around;
 }
@@ -147,6 +153,7 @@ header .container {
 footer .container {
   background-color: azure;
 }
+
 .content {
   display: flex;
   align-items: center;
