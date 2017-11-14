@@ -165,3 +165,31 @@ footer .container {
   padding-right: 1rem;
 }
 
+
+
+/*** Media Queries ***/
+@media only screen and (max-width: 1024px) {
+  
+  header {
+  height: 25.5rem;
+  }
+    
+  .container {
+    width: 100%;
+  }
+  
+  header .container {
+    margin-top: 0;
+  }
+  
+  .container-plus {
+    width: 100%;
+  }
+  
+  .slogan {
+  margin-top: 7rem;
+  margin-right: 2.5rem;
+  padding: 2rem 4.5rem;
+  font-size: 1.35rem;
+}
+  
